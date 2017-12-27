@@ -1,0 +1,11 @@
+<!--pages/liaotiankuang/liaotiankuang.wxml-->
+  <view>
+    <image mode="{{user.mode}}" src="{{user.title}}"></image>
+    <view>{{user.info}}
+      <text class='tim'>{{user.time}}</text>
+    </view>
+  </view>
+
+  <view class='shuru'>
+    <input type='text' class='ipt'></input><input bindinput='click' type='buttom' class='btn' value='发送'></input>
+  </view>

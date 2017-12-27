@@ -1,0 +1,10 @@
+<!--pages/me/me.wxml-->
+<view class='tab'>
+  <view wx:for="{{array}}" wx:key="aa" wx:for-item="info" class='hang'>
+    <image mode="{{info.mode}}" src="{{info.image}}"></image>
+    <view class='info' bindtap='click'>
+      {{info.info}}
+    </view>
+  </view>
+</view>
+

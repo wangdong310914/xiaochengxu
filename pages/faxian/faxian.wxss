@@ -1,0 +1,22 @@
+
+input{
+  border: 1px solid #ccc;
+  border-radius:10px;
+  padding: 5px;
+  margin: 10rpx 5px;
+  text-align: center;
+}
+.hang{
+  margin-top: 15px;
+  overflow: hidden
+}
+image{
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+  float: left
+}
+.info{
+  float: left;
+  margin-left: 10px
+}

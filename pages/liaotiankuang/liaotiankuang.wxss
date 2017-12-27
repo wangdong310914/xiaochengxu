@@ -1,0 +1,37 @@
+/* pages/liaotiankuang/liaotiankuang.wxss */
+
+image{
+  width: 40px;
+  height: 40px;
+  float: left;
+  margin-left: 10px;
+}
+.info{
+  float: left;
+  margin-left: 20px;
+  display:block;
+  line-height: 40px;
+}
+.tim{
+  display: block;
+  float: right;
+}
+.shuru{
+  width: 100%;
+  height: 35px;
+  position: absolute;
+  bottom: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.shuru .ipt{
+  height: 35px;
+  border: 1px solid #bbb;
+  flex: 3;
+}
+.shuru .btn{
+  height: 37px;
+  text-align: center;
+  background-color: #aaa;
+  flex: 1;
+}
