@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/weixin/index",
+    "pages/tongxunlu/tongxunlu",
+    "pages/faxian/faxian",
+    "pages/me/me",
+    "pages/liaotiankuang/liaotiankuang"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "grey",
+    "selectedColor": "black",
+    "backgroundColor": "#bbb",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/weixin/index",
+        "text": "微信",
+        "iconPath": "public/icons/weixin2.png",
+        "selectedIconPath": "public/icons/weixin1.png"
+      },
+      {
+        "pagePath": "pages/tongxunlu/tongxunlu",
+        "text": "通讯录",
+        "iconPath": "public/icons/call1.png",
+        "selectedIconPath": "public/icons/call2.png"
+      },
+      {
+        "pagePath": "pages/faxian/faxian",
+        "text": "发现",
+        "iconPath": "public/icons/home-n.png",
+        "selectedIconPath": "public/icons/home-a.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我",
+        "iconPath": "public/icons/me2.png",
+        "selectedIconPath": "public/icons/me1.png"
+      }
+    ]
+  }
+}
