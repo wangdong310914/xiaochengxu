@@ -18,5 +18,5 @@
       }
   
  > 图片
- ![网络不给力！](app.json/public/icons/me1.png)
+ ![网络不给力！](public/icons/me1.png)
  
