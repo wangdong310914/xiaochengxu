@@ -17,6 +17,6 @@
         "selectedIconPath": "public/icon/home-a.png"
       }
   
- ?> 图片
- ?![网络不给力！](/weixin/public/icon/03.png)
- ?
+ > 图片
+ ![网络不给力！](app.json/public/icons/me1.png)
+ 
